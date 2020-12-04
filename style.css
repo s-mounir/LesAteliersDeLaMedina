@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-image: url("background.jpg");
+    font-family: 'Oswald', sans-serif;
+    color:#074308;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+li {
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: #074308;
+    opacity: 0.85;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+}
+
+header li{
+    font-size: 22px;
+    display: inline-block;
+    width: 170px;
+    padding-top: 2px;
+}
+
+main{
+    background-color: #FFFFFF;
+    margin: 80px 50px 0px 50px;
+    padding: 50px 0px;
+    border : 0.5px solid #074308;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#recherche{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+p{
+    color:#63994E;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 30px;
+}
+
+#decouverte{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-top: 0.5px solid  #074308;
+    border-bottom: 0.5px solid  #074308;
+}
+
+#liste_atelier{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rectangle{
+    border: 2px solid #074308;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    background-color: #074308;
+    opacity: 0.75;
+    margin: 0px 50px 50px 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 100px;
+}
+
+h6{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+    top: -55px;
+}
+
+footer ul{
+    display: inline-block;
+    padding-top: 20px;
+    width: 180px;
+}
+
+footer li{
+    font-size: 12px;
+}
+/*
+li:hover {
+    color: #DBE9EE;
+  }
+*/
