@@ -6,15 +6,16 @@
          url(fonts/Roboto.tff) format('truetype');
   }
 
+
+/**********/
+/*  Body  */
+/**********/
 /* Removing all margin and padding */
 * {
     margin: 0;
     padding: 0;
   }
 
-/**********/
-/*  Body  */
-/**********/
 /* Starting with Body and elements that are in header and footer */
 body{
     background-image: url("image/background.jpg");
@@ -82,7 +83,7 @@ h3{
     margin-left: 20px;
 }
 
-#recherche{
+#search{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 70px;
@@ -128,7 +129,7 @@ h3{
     outline: none;
   }
   
-  /* Cette partie pourra être fait en bootstrap 
+  /* This part can be done in bootstrap later
   option {
     color: #63994E;
     background-color: #FFFFFF;
@@ -155,14 +156,14 @@ h3{
 }
 
 /* Best workshops */
-#decouverte{
+#discover{
     padding-top: 30px;
     padding-bottom: 40px;
     border-top: 0.5px solid  #074308;
     border-bottom: 0.5px solid  #074308;
 }
 
-#liste_atelier{
+#workshop_list{
     text-align: center;
     padding-top: 20px;
 }
@@ -186,31 +187,10 @@ footer{
     height: 100px;
 }
 
-h6{
+footer h6{
     font-size: 15px;
     color: #FFFFFF;
     text-transform: uppercase;
     display: inline;
     position: relative;
-    top: -55px;
-}
-
-footer ul{
-    display: inline-block;
-    padding-top: 20px;
-    width: 170px;
-}
-
-footer li{
-    font-size: 12px;
-}
-
-footer div{
-    display: inline-block;
-    top: -55px;
-}
-
-footer p{
-    font-size: 12px;
-    color: #FFFFFF;
 }
