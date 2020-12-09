@@ -26,10 +26,26 @@
                 qualifié autour de chez vous. </p>
             <div id="recherche">
                 <h3>Réservez en quelques clics un atelier</h3>
-                <button>Ville</button>
-                <button>Savoir-faire</button>
-                <br/>
-                <button>Rechercher</button>
+                <form method="post" action="">
+                    <p>
+                        <select name="ville" id="ville" class="select-css">
+                            <option value="tout">Ville</option>
+                            <option value="casablanca">Casablanca</option>
+                            <option value="marrakech">Marrakech</option>
+                            <option value="fes">Fès</option>
+                            <option value="agadir">Agadir</option>
+                        </select>
+                        <select name="savoirfaire" id="savoirfaire" class="select-css">
+                            <option value="tout">Savoir Faire</option>
+                            <option value="bois">Bois</option>
+                            <option value="tissu">Tissu</option>
+                            <option value="metal">Metal</option>
+                            <option value="cuir">Cuir</option>
+                        </select>
+                        </br>
+                        <input type="submit" value="Rechercher" class="submit"/>
+                    </p>
+                 </form>
             </div>
             <div id="decouverte">
                 <h3>Décrouvez les ateliers les plus prisés</h3>
@@ -58,6 +74,13 @@
                 <li>Nous contacter</li>
                 <li>Espace artisan</li>
             </ul>
+            <div id="reseau_sociaux">
+                <img src="image/instagram.png" alt="instagram" width=15px height=15px/>
+                <img src="image/facebook.png" alt="facebook" width=15px height=15px/>
+                <img src="image/pinterest.png" alt="pinterest" width=15px height=15px/>
+                <img src="image/linkedin.png" alt="linkedin" width=15px height=15px/>
+                <p>contact@lesateliersdelamedina.ma</p>
+            </div>
         </footer>
         
     </body>
