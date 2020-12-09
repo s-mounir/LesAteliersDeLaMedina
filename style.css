@@ -6,12 +6,16 @@
          url(fonts/Roboto.tff) format('truetype');
   }
 
-
+/* Removing all margin and padding */
 * {
     margin: 0;
     padding: 0;
   }
 
+/**********/
+/*  Body  */
+/**********/
+/* Starting with Body and elements that are in header and footer */
 body{
     background-image: url("image/background.jpg");
     font-family: 'Oswald', sans-serif;
@@ -28,6 +32,9 @@ li {
     text-transform: uppercase;
 }
 
+/**********/
+/* Header */
+/**********/
 header{
     background-color: #074308;
     opacity: 0.85;
@@ -46,6 +53,10 @@ header li{
     padding-top: 2px;
 }
 
+/**********/
+/*  Main  */
+/**********/
+
 main{
     background-color: #FFFFFF;
     margin: 80px 50px 0px 50px;
@@ -60,16 +71,16 @@ h1{
     text-align: center;
 }
 
-h3{
-    font-size: 25px;
-    margin-left: 20px;
-}
-
 p{
     color:#63994E;
     font-size: 20px;
     text-align: center;
     padding: 5px 30px;
+}
+
+h3{
+    font-size: 25px;
+    margin-left: 20px;
 }
 
 #recherche{
@@ -78,7 +89,7 @@ p{
     padding-bottom: 70px;
 }
 
-/* class applies to select element itself, not a wrapper element */
+/* Drop down buttons */
 .select-css {
     display: inline-block;
     font-size: 16px;
@@ -97,15 +108,10 @@ p{
     -webkit-appearance: none;
     appearance: none;
     background-color: #fff;
-    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
-      for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
-      
-    */
+    /* arrow image */
     background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23074308%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
     background-repeat: no-repeat, repeat;
-    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
     background-position: right .7em top 50%, 0 0;
-    /* icon size, then gradient */
     background-size: .65em auto, 100%;
   }
   /* Hide arrow icon in IE browsers */
@@ -120,16 +126,16 @@ p{
   .select-css:focus {
     border-color: #074308;
     border-width: 1.5px;
-    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
     outline: none;
   }
   
-  /* Set options to normal weight */
+  /* Cette partie pourra être fait en bootstrap 
   option {
     color: #63994E;
     background-color: #FFFFFF;
-  }
+  }*/
 
+/* Submit button */
 .submit{
     color:#FFFFFF;
     background-color:  #074308;
@@ -149,6 +155,7 @@ p{
     appearance: none;
 }
 
+/* Best workshops */
 #decouverte{
     padding-top: 30px;
     padding-bottom: 40px;
@@ -167,6 +174,10 @@ p{
     width: 150px;
     height: 150px;
 }
+
+/**********/
+/* Footer */
+/**********/
 
 footer{
     background-color: #074308;
