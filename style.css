@@ -36,8 +36,7 @@ li {
 /* Header */
 /**********/
 header{
-    background-color: #074308;
-    opacity: 0.85;
+    background-color: rgba(7,67,8,0.85);
     height: 30px;
     position: fixed;
     width: 100%;
@@ -180,8 +179,7 @@ h3{
 /**********/
 
 footer{
-    background-color: #074308;
-    opacity: 0.75;
+    background-color: rgba(7,67,8,0.85);
     margin: 0px 50px 50px 50px;
     text-align: center;
     padding-bottom: 10px;
